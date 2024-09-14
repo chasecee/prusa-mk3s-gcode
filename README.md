@@ -78,7 +78,7 @@ G92 E0.0 ; reset extrusion distance
 ; Final print adjustments
 M300 S40 P10 ; chirp
 M117 Preparing to print
-M900 K0.08 ; Re-enable Linear Advance with K value of 0.1 (adjust as needed)
+M900 K0.08 ; Re-enable Linear Advance with K value of 0.8 (adjust as needed)
 ; Adjust extrusion rate if desired
 ; M221 S{if layer_height >= 0.32}90{else}100{endif} ; compensate for thick layer heights
 M117 Print in progress
