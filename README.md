@@ -12,10 +12,11 @@ This README contains information about the Prusa MK3S+ 3D printer configuration 
 ```gcode
 ; PrusaSlicer start gcode for Prusa i3 Mk3S with E3D Revo HF
 ; Last updated 20240913
-; Added for E3D Revo HF
+; Added next three lines for E3D Revo HF
 M350 E16 ; microstepping (x16)
 M92 E2682 ; steps per mm
 M907 E450 ; extruder motor current (mA)
+; Original code from muppetlabs (see credits below)
 M300 S60 P10 ; chirp
 M862.3 P "[printer_model]" ; printer model check
 M862.1 P[nozzle_diameter] ; nozzle diameter check
